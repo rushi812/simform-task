@@ -36,6 +36,7 @@ This project has been deployed using [Netlify Platform](https://www.netlify.com/
 ## Live Project in Action
 
 Please check this out [Go Live](https://upbeat-kalam-7bcd70.netlify.app/)
+
 Credentials to use:
 
 ```bash
