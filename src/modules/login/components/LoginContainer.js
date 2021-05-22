@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { history, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 import * as action from '../redux/action'
 import { isEmpty, noop } from '../../../utils'

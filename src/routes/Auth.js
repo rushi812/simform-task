@@ -21,7 +21,7 @@ const Auth = (ComposedComponent) => {
       } else {
         history.push('/')
       }
-    }, [])
+    }, [history, loggedInUser])
 
     return <ComposedComponent />
   }
