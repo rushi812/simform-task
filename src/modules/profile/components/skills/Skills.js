@@ -20,6 +20,7 @@ const Skills = ({ saveSkills }) => {
     if (skillsList?.length > 0) {
       saveSkills(skillsList)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [skillsList])
 
   const onDragEnd = (result) => {
