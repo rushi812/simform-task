@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(6)
   },
   standardError: {
-    width: '700px',
+    width: '80%',
     margin: '0 auto',
     padding: '1rem',
     fontSize: '2rem',

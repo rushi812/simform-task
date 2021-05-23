@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   standardSuccess: {
-    width: '700px',
+    width: '80%',
     margin: '0 auto',
     padding: '1rem',
     fontSize: '2rem',
