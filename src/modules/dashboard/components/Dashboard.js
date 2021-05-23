@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Alert from '@material-ui/lab/Alert'
 
 import useStyles from './style'
