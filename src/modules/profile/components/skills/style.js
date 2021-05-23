@@ -11,6 +11,12 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(3)
     }
   },
+  addSkill: {
+    display: 'flex'
+  },
+  addBtn: {
+    marginLeft: '1rem'
+  },
   listItem: {
     backgroundColor: theme.palette.secondary.main,
     margin: '1rem 0',

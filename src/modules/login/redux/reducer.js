@@ -33,6 +33,7 @@ const AuthReducer = (state = INITIAL_STATE, action) => {
       localStorage.clear()
       return {
         ...state,
+        loggedInUser: {},
         isUserLoggedIn: false
       }
     default:

@@ -27,7 +27,6 @@ const Profile = ({
   editProfileHandler,
   isProfileEdit
 }) => {
-  console.log('RB:: File: Profile.js, Line: 29 ==> userProfile', userProfile)
   const classes = useStyles()
 
   return (

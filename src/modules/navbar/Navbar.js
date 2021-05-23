@@ -47,12 +47,14 @@ function Navbar({ loginBtnHandler, logoutBtnHandler, isUserLoggedIn }) {
 
 Navbar.propTypes = {
   loginBtnHandler: PropTypes.func,
-  logoutBtnHandler: PropTypes.func
+  logoutBtnHandler: PropTypes.func,
+  isUserLoggedIn: PropTypes.bool
 }
 
 Navbar.defaultProps = {
   loginBtnHandler: noop,
-  logoutBtnHandler: noop
+  logoutBtnHandler: noop,
+  isUserLoggedIn: false
 }
 
 export default Navbar

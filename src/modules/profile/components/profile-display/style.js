@@ -6,12 +6,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper
   },
   chipContainer: {
-    display: 'flex'
+    display: 'flex',
+    flexWrap: 'wrap'
   },
   colorPrimary: {
     marginRight: '1rem',
-    marginBottom: '1rem',
-    width: '100%'
+    marginBottom: '1rem'
   },
   editBtnContainer: {
     display: 'flex',
